@@ -1,0 +1,37 @@
+## SQL
+ \sql
+  \connect root@localhost:3306
+  USE python_project
+#############
+cd client && npm run dev
+  cd server && venv/Scripts/activate && uvicorn main:app --reload    
+        self.story.append(Paragraph("Model Report", title_style))
+# pip install -r requirements.txt
+# pip freeze > requirements.txt
+
+############################# Run Front end
+# cd client
+# npm install
+# npm run dev
+########################### Run backend
+# .venv/Scripts/activate
+# pip install
+# uvicorn main:app --reload 
+
+fastapi-auth-app/
+│
+├── app/
+│   ├── __init__.py
+│   ├── main.py
+│   ├── models.py
+│   ├── schemas.py
+│   ├── database.py
+│   ├── auth/
+│   │   ├── __init__.py
+│   │   ├── hashing.py
+│   │   ├── jwt_handler.py
+│   │   └── routes.py
+│   └── config.py
+├── .env
+├── requirements.txt
+└── README.md
